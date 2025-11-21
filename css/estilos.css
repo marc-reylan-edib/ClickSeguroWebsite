@@ -271,3 +271,99 @@ header {
     color: #102a4b;
     padding: 20px;
 }
+
+.tituloContacto{
+    display: flex;
+    width: 100%;
+    color: #102a4b;
+    background-color: #102a4b;
+    color: white;
+    padding: 40px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.contacto {
+    display: flex;
+    width: 100%;
+    background-color: #102a4b;
+    color: white;
+    align-items: center;
+    padding: 40px 5%;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.contactoContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.contactoMap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.contacto p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.contacto form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.contacto input[type="text"],
+.contacto input[type="email"],
+.contacto textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contacto .btn {
+    background-color: orange;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.contacto .btn:hover {
+    background-color: darkorange;
+    transform: translateY(-2px);
+}
+.mapa {
+    margin-top: 50px;
+    width: 100%;
+    height: 70%; 
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.mapa iframe {
+   height: 400px;
+}
+
+.otrosContactos{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    gap: 100px;
+    margin-top: 20px;
+}
