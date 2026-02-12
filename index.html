@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cine</title>
+    <title>ClickSeguro - Tecnología para Todos</title>
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
@@ -11,118 +11,293 @@
         <header>
             <div class="headLeft">
                 <h1>ClickSeguro</h1>
+                <span class="tagline">Tecnología a tu alcance</span>
             </div>
             <div class="headRight">
                 <ul>
-                    <li><a href="">Inicio</li></a>
-                    <li><a href="">Cursos</li></a>
-                    <li><a href="">Sobre Nosotros</li></a>
-                    <li><a href="">Testimonio</li></a>
-                    <li><a href="">Contacto</li></a>
-                    <li><a href="">Únete</li></a>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#nosotros">Sobre Nosotros</a></li>
+                    <li><a href="#testimonios">Testimonios</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                    <li><a href="#contacto" class="btnHeader">Únete</a></li>
                 </ul>
             </div>
         </header>
-        <div class="imageContainer">
+
+        <div class="imageContainer" id="inicio">
+            <div class="overlay"></div>
             <div class="imageContent">
                 <h1>Aprendizaje Digital <br> Para todas las Edades</h1>
                 <p>Tu camino en un mundo de informática. <br> Confianza en cada click</p>
-                <a href="#" class="btn">Empieza ya!</a>
+                <a href="#servicios" class="btn">Descubre nuestros servicios</a>
             </div>
         </div>
-        <div class="tituloNuestrsCursos">
-            <h1>Nuestros Cursos</h1>
+
+        <div class="tituloNuestrosServicios" id="servicios">
+            <h1>Nuestros Servicios</h1>
+            <p>Soluciones integrales para que la tecnología sea tu aliada</p>
         </div>
-        <div class="nuestrosCursos">
-                <div class="card">
-                    <img src="https://th.bing.com/th/id/OIP.tWFKEidaUFdjkDo5qw8evwHaD4?w=320&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3" alt="imagenCurso1">
-                    <h2>Curso1</h2>
-                    <p>Este es un texto de ejemplo dentro de la card. Puedes poner descripción o información relevante.</p>
-                    <a href="#" class="btn">Más información</a>
+
+        <div class="nuestrosServicios">
+            <div class="card">
+                <div class="cardIcon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                        <path d="M2 17l10 5 10-5"></path>
+                        <path d="M2 12l10 5 10-5"></path>
+                    </svg>
                 </div>
-                <div class="card">
-                    <img src="https://www.altagracianoticias.com/wp-content/uploads/2022/03/720-_1_-compressed.jpg" alt="imagenCurso1">
-                    <h2>Curso2</h2>
-                    <p>Este es un texto de ejemplo dentro de la card. Puedes poner descripción o información relevante.</p>
-                    <a href="#" class="btn">Más información</a>
+                <h2>Soporte Técnico a Domicilio</h2>
+                <p>¿Problemas con tu computadora, tablet o celular? Vamos a tu casa para resolverlo. Instalamos programas, reparamos errores y te enseñamos a usar tus dispositivos sin complicaciones.</p>
+                <ul class="cardList">
+                    <li>Instalación de programas</li>
+                    <li>Solución de problemas</li>
+                    <li>Configuración de dispositivos</li>
+                    <li>Atención personalizada</li>
+                </ul>
+                <a href="#contacto" class="btn">Solicitar visita</a>
+            </div>
+
+            <div class="card cardDestacada">
+                <div class="badge">Más Popular</div>
+                <div class="cardIcon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                    </svg>
                 </div>
-                <div class="card">
-                    <img src="https://static.vecteezy.com/system/resources/previews/008/136/551/large_2x/young-man-or-son-teaching-his-grandfather-elderly-dad-learning-to-using-computer-at-home-photo.jpg" alt="imagenCurso1">
-                    <h2>Curso3</h2>
-                    <p>Este es un texto de ejemplo dentro de la card. Puedes poner descripción o información relevante.</p>
-                    <a href="#" class="btn">Más información</a>
+                <h2>Clases de Diferentes Niveles</h2>
+                <p>Aprende a tu ritmo con cursos diseñados para todas las edades y niveles. Desde lo básico hasta temas avanzados, con clases presenciales o en línea.</p>
+                <ul class="cardList">
+                    <li>Nivel Básico: Computación desde cero</li>
+                    <li>Nivel Intermedio: Internet y aplicaciones</li>
+                    <li>Nivel Avanzado: Office y herramientas</li>
+                    <li>Clases grupales o individuales</li>
+                </ul>
+                <a href="#contacto" class="btn">Ver cursos</a>
+            </div>
+
+            <div class="card">
+                <div class="cardIcon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                        <polyline points="14 2 14 8 20 8"></polyline>
+                        <line x1="16" y1="13" x2="8" y2="13"></line>
+                        <line x1="16" y1="17" x2="8" y2="17"></line>
+                        <polyline points="10 9 9 9 8 9"></polyline>
+                    </svg>
                 </div>
+                <h2>Gestión de Trámites Digitales</h2>
+                <p>Te ayudamos a realizar trámites en línea de forma segura y profesional. Desde llenar formularios hasta gestiones bancarias, lo hacemos por ti.</p>
+                <ul class="cardList">
+                    <li>Trámites gubernamentales</li>
+                    <li>Gestiones bancarias en línea</li>
+                    <li>Registro en plataformas</li>
+                    <li>Asesoría y seguimiento</li>
+                </ul>
+                <a href="#contacto" class="btn">Consultar</a>
+            </div>
         </div>
-        <div class="tituloSobreNosotros">
+
+        <div class="beneficios">
+            <div class="beneficioItem">
+                <h3>+500</h3>
+                <p>Personas capacitadas</p>
+            </div>
+            <div class="beneficioItem">
+                <h3>100%</h3>
+                <p>Satisfacción garantizada</p>
+            </div>
+            <div class="beneficioItem">
+                <h3>5+</h3>
+                <p>Años de experiencia</p>
+            </div>
+            <div class="beneficioItem">
+                <h3>24/7</h3>
+                <p>Soporte disponible</p>
+            </div>
+        </div>
+
+        <div class="tituloSobreNosotros" id="nosotros">
             <h1>Sobre Nosotros</h1>
+            <p>Tu aliado en tecnología</p>
         </div>
+
         <div class="sobreNosotros">
             <div class="imageSobreNosotros">
-                <img src="https://www.asrock.com/microsite/Beebox/images/Team/03-1.jpg">
+                <img src="https://www.asrock.com/microsite/Beebox/images/Team/03-1.jpg" alt="Equipo ClickSeguro">
             </div>
             <div class="contentSobreNosotros">
-                <p>Somos una empresa dedicada a enseñar informática a personas mayores y a
-                    quienes necesiten aprender a usar la tecnología. Ofrecemos cursos y talleres fáciles de
-                    entender, para que puedan usar computadoras, internet y aplicaciones de manera segura y
-                    práctica en su vida diaria. <br><br>Así mismo ofrecemos servicio a domicilio para aquellas personas
-                    que no pueden participar de forma presencial.<br><br> Nuestro propósito es que las personas
-                    puedan aprender a usar la tecnología con comodidad.</p>
+                <h2>Hacemos la tecnología accesible para todos</h2>
+                <p>Somos una empresa dedicada a enseñar informática a personas mayores y a quienes necesiten aprender a usar la tecnología. Ofrecemos cursos y talleres fáciles de entender, para que puedan usar computadoras, internet y aplicaciones de manera segura y práctica en su vida diaria.</p>
+                
+                <p>Ofrecemos servicio a domicilio para aquellas personas que no pueden participar de forma presencial, llevando la capacitación directamente a tu hogar.</p>
+                
+                <p>Además, te ayudamos con trámites digitales profesionales, desde gestiones bancarias hasta trámites gubernamentales, siempre con la máxima seguridad y confianza.</p>
+                
+                <div class="misionVision">
+                    <div class="misionItem">
+                        <h3>Nuestra Misión</h3>
+                        <p>Empoderar a las personas a través del conocimiento tecnológico, eliminando barreras y creando confianza en el mundo digital.</p>
+                    </div>
+                    <div class="misionItem">
+                        <h3>Nuestra Visión</h3>
+                        <p>Ser la empresa líder en educación tecnológica inclusiva, donde cada persona pueda disfrutar los beneficios de la era digital.</p>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="tituloTestimonios">
-            <h1>Testimonios</h1>
+
+        <div class="tituloTestimonios" id="testimonios">
+            <h1>Lo que dicen nuestros clientes</h1>
+            <p>Experiencias reales de personas que han confiado en nosotros</p>
         </div>
+
         <div class="testimonios">
             <div class="testimonioCard">
-                <img src="https://cdn.pixabay.com/photo/2024/09/02/11/27/ai-generated-9016519_1280.jpg">
-                <h2>Nombre</h2>
-                <p>"Lorem ipsum sdsdnjsshdhjshjdsj"</p>
+                <div class="stars">★★★★★</div>
+                <p>"Gracias a ClickSeguro ahora puedo hablar con mis nietos por videollamada y enviarles fotos. El profesor vino a mi casa y fue muy paciente explicándome todo."</p>
+                <img src="https://cdn.pixabay.com/photo/2024/09/02/11/27/ai-generated-9016519_1280.jpg" alt="Cliente 1">
+                <h3>María González</h3>
+                <span class="testimonioEdad">68 años</span>
             </div>
+
             <div class="testimonioCard">
-                <img src="https://img.freepik.com/fotos-premium/director-arte-masculino-senior-sonrisa-amigable-aislado-sobre-fondo-blanco_662214-191675.jpg">
-                <h2>Nombre</h2>
-                <p>"Lorem ipsum sdsdnjsshdhjshjdsj"</p>
+                <div class="stars">★★★★★</div>
+                <p>"Me ayudaron a hacer todos mis trámites bancarios en línea. Ahora ya no tengo que hacer filas en el banco. Muy profesionales y confiables."</p>
+                <img src="https://img.freepik.com/fotos-premium/director-arte-masculino-senior-sonrisa-amigable-aislado-sobre-fondo-blanco_662214-191675.jpg" alt="Cliente 2">
+                <h3>Roberto Sánchez</h3>
+                <span class="testimonioEdad">72 años</span>
             </div>
+
             <div class="testimonioCard">
-                <img src="https://img.freepik.com/premium-photo/smiling-handsome-man-about-30-years-old-orange-shirt-white-background-male-portrait_108611-2758.jpg?w=2000">
-                <h2>Nombre</h2>
-                <p>"Lorem ipsum sdsdnjsshdhjshjdsj"</p>
+                <div class="stars">★★★★★</div>
+                <p>"Las clases son excelentes. Aprendí a usar Excel para mi pequeño negocio. El ambiente es muy amigable y todos aprenden a su propio ritmo."</p>
+                <img src="https://img.freepik.com/premium-photo/smiling-handsome-man-about-30-years-old-orange-shirt-white-background-male-portrait_108611-2758.jpg" alt="Cliente 3">
+                <h3>Carlos Mendoza</h3>
+                <span class="testimonioEdad">55 años</span>
             </div>
         </div>
-        <div class="tituloContacto">
-            <h1>Contacto</h1>
+
+        <div class="tituloContacto" id="contacto">
+            <h1>Contáctanos</h1>
+            <p>Estamos aquí para ayudarte</p>
         </div>
         
         <div class="contacto">
             <div class="contactoContent">
+                <h2>Envíanos un mensaje</h2>
                 <form action="">
-                    <input type="text" placeholder="Nombre Completo">
-                    <input type="email" placeholder="Correo Electrónico">
-                    <textarea placeholder="Escribe tu mensaje aquí..."></textarea>
-                    <a href="#" class="btn">Enviar</a>
+                    <input type="text" placeholder="Nombre Completo" required>
+                    <input type="email" placeholder="Correo Electrónico" required>
+                    <input type="tel" placeholder="Teléfono">
+                    <select>
+                        <option value="">Selecciona un servicio</option>
+                        <option value="soporte">Soporte Técnico a Domicilio</option>
+                        <option value="clases">Clases de Diferentes Niveles</option>
+                        <option value="tramites">Gestión de Trámites Digitales</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                    <textarea placeholder="Cuéntanos cómo podemos ayudarte..." rows="5"></textarea>
+                    <button type="submit" class="btn">Enviar mensaje</button>
                 </form>
             </div>
         
-            <div class="contactoMap">
-                <div class="mapa">
-                    <iframe 
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019769759148!2d-122.4194156846827!3d37.77492927975926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064d9f91d47%3A0x123456789abcdef0!2sClickSeguro%20Ficticio!5e0!3m2!1ses!2sus!4v1699999999999!5m2!1ses!2sus" 
-                        width="100%" 
-                        height="100%" 
-                        style="border:0;" 
-                        allowfullscreen="" 
-                        loading="lazy">
-                    </iframe>
+            <div class="contactoInfo">
+                <div class="infoItem">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                    </svg>
+                    <div>
+                        <h4>Teléfono</h4>
+                        <p>+1 234 567 8901</p>
+                    </div>
+                </div>
+
+                <div class="infoItem">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                    <div>
+                        <h4>Correo</h4>
+                        <p>contacto@clickseguro.com</p>
+                    </div>
+                </div>
+
+                <div class="infoItem">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                        <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    <div>
+                        <h4>Dirección</h4>
+                        <p>123 Calle Ficticia, Ciudad, País</p>
+                    </div>
+                </div>
+
+                <div class="infoItem">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="12" cy="12" r="10"></circle>
+                        <polyline points="12 6 12 12 16 14"></polyline>
+                    </svg>
+                    <div>
+                        <h4>Horario</h4>
+                        <p>Lun - Sáb: 9:00 AM - 7:00 PM</p>
+                    </div>
                 </div>
             </div>
-            <div class="otrosContactos">
-                <p>Teléfono: +1 234 567 8901</p>
-                <p>Correo: contacto@clickseguro.com</p>
-                <p>Dirección: 123 Calle Ficticia, Ciudad, País</p>
-                <p>@Copyright by reylan</p>
+        </div>
+
+        <div class="contactoMap">
+            <div class="mapa">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.019769759148!2d-122.4194156846827!3d37.77492927975926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80858064d9f91d47%3A0x123456789abcdef0!2sClickSeguro%20Ficticio!5e0!3m2!1ses!2sus!4v1699999999999!5m2!1ses!2sus" 
+                    width="100%" 
+                    height="100%" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    loading="lazy">
+                </iframe>
             </div>
         </div>
-        
+
+        <footer>
+            <div class="footerContent">
+                <div class="footerSection">
+                    <h3>ClickSeguro</h3>
+                    <p>Haciendo la tecnología accesible para todos desde 2019</p>
+                </div>
+                <div class="footerSection">
+                    <h3>Servicios</h3>
+                    <ul>
+                        <li><a href="#servicios">Soporte Técnico</a></li>
+                        <li><a href="#servicios">Clases</a></li>
+                        <li><a href="#servicios">Trámites Digitales</a></li>
+                    </ul>
+                </div>
+                <div class="footerSection">
+                    <h3>Enlaces</h3>
+                    <ul>
+                        <li><a href="#nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#testimonios">Testimonios</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="footerSection">
+                    <h3>Síguenos</h3>
+                    <div class="socialMedia">
+                        <a href="#" aria-label="Facebook">FB</a>
+                        <a href="#" aria-label="Instagram">IG</a>
+                        <a href="#" aria-label="WhatsApp">WA</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footerBottom">
+                <p>&copy; 2026 ClickSeguro. Todos los derechos reservados. | Diseñado por reylan</p>
+            </div>
+        </footer>
     </div>
 </body>
 </html>
